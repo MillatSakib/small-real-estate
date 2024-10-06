@@ -14,6 +14,9 @@ const Button = ({ buttonContent, buttonLink, buttonState }) => {
   } else if (buttonState === "3") {
     buttonStyle =
       "inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark";
+  } else if (buttonState === "4") {
+    buttonStyle =
+      "inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]";
   }
 
   return (
