@@ -1,62 +1,62 @@
 import React from "react";
 import HouseComponent from "../../components/HouseComponent";
 import GrabDreamCard from "./GrabDreamCard";
+import realEstate1 from "../../assets/real-estate02.jpg";
+import realEstate2 from "../../assets/real-estate03.jpg";
+import realEstate3 from "../../assets/real-estate04.jpg";
+import realEstate4 from "../../assets/real-estate05.jpg";
+import realEstate5 from "../../assets/real-estate06.jpg";
+import realEstate0 from "../../assets/real-estate01.jpg";
 
 const GrabDream = () => {
   const cardData = [
     {
       id: 1,
       title: "Modern Design villa",
-      imgSrc:
-        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbGVzdGF0ZXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60",
+      imgSrc: realEstate0,
       price: 3000,
       bedroom: 3,
       bathroom: 2,
     },
     {
       id: 2,
-      title: "Modern Design villa",
-      imgSrc:
-        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbGVzdGF0ZXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60",
-      price: 3000,
-      bedroom: 3,
+      title: "Snigdha villa",
+      imgSrc: realEstate1,
+      price: 3100,
+      bedroom: 2,
       bathroom: 2,
     },
     {
       id: 3,
-      title: "Modern Design villa",
-      imgSrc:
-        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbGVzdGF0ZXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60",
-      price: 3000,
+      title: "Manager Manson",
+      imgSrc: realEstate2,
+      price: 2500,
       bedroom: 3,
-      bathroom: 2,
+      bathroom: 1,
     },
     {
       id: 4,
-      title: "Modern Design villa",
-      imgSrc:
-        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbGVzdGF0ZXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60",
-      price: 3000,
-      bedroom: 3,
-      bathroom: 2,
+      title: "Forazi villa",
+      imgSrc: realEstate3,
+      price: 4000,
+      bedroom: 5,
+      bathroom: 3,
     },
     {
       id: 5,
-      title: "Modern Design villa",
-      imgSrc:
-        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbGVzdGF0ZXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60",
-      price: 3000,
-      bedroom: 3,
+      title: "Talukdar villa",
+      imgSrc: realEstate4,
+      price: 3700,
+      bedroom: 4,
       bathroom: 2,
     },
     {
       id: 6,
-      title: "Modern Design villa",
-      imgSrc:
-        "https://images.unsplash.com/photo-1601760562234-9814eea6663a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbGVzdGF0ZXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60",
-      price: 3000,
-      bedroom: 3,
-      bathroom: 2,
+      title: "House Garden villa",
+      imgSrc: realEstate5,
+      price: 2000,
+      bedroom: 2,
+      bathroom: 1,
     },
   ];
   return (
